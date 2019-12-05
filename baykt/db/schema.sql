@@ -12,4 +12,18 @@ CREATE TABLE products
     PRIMARY KEY (id)
 );
 
--- need to insert an image URL to link image to the product entry
+
+
+-- DO I NEED TO CREATE THESE TABLES??
+CREATE TABLE articles 
+(
+	id INT NOT NULL AUTO_INCREMENT,
+	headline VARCHAR(255) NOT NULL,
+	link VARCHAR(255) NOT NULL,
+	PRIMARY KEY (id)
+)
+
+CREATE TABLE recipes 
+(
+
+)

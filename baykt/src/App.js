@@ -4,22 +4,25 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './Components/Navbar'
 import Login from './Components/Login'
-// import Home from "./components/pages/Home";
-import ProductPics from './Components/ProductPics'
+import Home from "./Components/Home/Home";
+import Gallery from './Components/Gallery'
+import Products from './Components/Products.js'
 import AboutOwner from "./Components/About/AboutOwner";
-import Contact from "./Components/Contact";
+import Contact from "./Components/Contact/Contact";
+import Recipes from "./Components/Recipes/Recipes"
 
 function App() {
   return (
     <Router>
       <div>
         <Navbar />
-        {/* <Route exact path="/" component={Home} /> */}
-        
+        <Route exact path="/" component={Home} />
         <Route exact path="/about" component={AboutOwner} />
-        <Route exact path="/gallery" component={ProductPics} />
-        <Route exact path="/login" component={Login} />
+        <Route exact path="/menu" component={Products} />
+        <Route exact path="/gallery" component={Gallery} />
+        <Route exact path="/recipes" component={Recipes} />
         <Route path="/contact" component={Contact} />
+        <Route exact path="/login" component={Login} />
       </div>
     </Router>
   );

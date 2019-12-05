@@ -2,7 +2,12 @@ import React from 'react';
 
 const Login = () => {
     return (
-        <div className="container shadow">
+        <div className="container shadow mt-5 p-5 w-50">
+            <h1>
+                Login option is not working at the moment.  In the meantime, feel free to play around with the non-working form below.  If not, we totally understand.
+            </h1>
+            <hr></hr>
+            <hr></hr>
             <h1>
                 Sign in as an Administrator
             </h1>
