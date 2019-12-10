@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Cookie with Heath bar",
+        "path": "./productImages/cookie_Heath.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Cookie with Heath bar, precooked",
+        "path": "./productImages/cookie_precooked.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Cookie with white chocolate mac nut, precooked",
+        "path": "./productImages/cookie_WCM_precooked.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Dipping in Honey",
+        "path": "./productImages/honey_dipped.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "Honey dripping",
+        "path": "./productImages/honey_drip.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "Honey, 4 oz",
+        "path": "./productImages/honey.jpeg"
+    },
+    {
+        "id": 7,
+        "name": "Pumpkin Dessert, precooked",
+        "path": "./productImages/pumpkin_precooked.jpeg"
+    },
+    {
+        "id": 8,
+        "name": "Whipped Cream",
+        "path": "./productImages/whipped_cream.jpg"
+    }
+]
