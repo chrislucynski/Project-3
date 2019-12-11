@@ -1,6 +1,7 @@
-const router = require('express').router()
+// const express = require('express')
+// const router = express.Router()
 
-router.get("/articles", function(req, res) {
+// router.get("/articles", function(req, res) {
   
   
-  });
+//   });
