@@ -7,12 +7,12 @@ var ProductSchema = new Schema({
     type: String,
     required: true
   },
-   edible: {
-    type: Boolean,
-    required: true
-  },
    product_description: {
     type: String,
+    required: true
+  },
+   edible: {
+    type: Boolean,
     required: true
   },
   price: {
@@ -22,6 +22,6 @@ var ProductSchema = new Schema({
 
 });
 
-var Product = mongoose.model("Product", ProductSchema);
+var Product = mongoose.model("Product", ProductSchema, "Products");
 
 module.exports = Product;

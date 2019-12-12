@@ -1,9 +1,8 @@
-const Products = require('../models/Products')
+const Products = require('../models/Product')
 
 module.exports = {
     findAll: function(req, res) {
-      console.log('finding all')
-      console.log(Products)
+      console.log('finding all products')
       Products
         .find()
         .then(dbModel => {
@@ -12,9 +11,11 @@ module.exports = {
         .catch(err => res.status(422).json(err));
     },
     update: function(req, res) {
+      console.log(`finding product with id: ${req.params.id}`)
       Products
-        .findOneAndUpdate({ _id: req.params.id }, req.body)
-        .then(dbModel => res.json(dbModel))
+        .updateOne({ _id: req.params.id }, req.body)
+        .then(dbModel => {
+          res.json(dbModel)})
         .catch(err => res.status(422).json(err));
     }
     
