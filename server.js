@@ -8,7 +8,7 @@ const mongoose = require("mongoose");
 const db = require('./config/keys').mongoURI
 
 mongoose
-  .connect(db, {useNewUrlParser: true, useUnifiedTopology: true})
+  .connect(db, {useNewUrlParser: true, useUnifiedTopology: true, dbName: 'Baekd' })
   .then(console.log('connected to db'))
   .catch(err => console.log(err))
 

@@ -3,10 +3,7 @@ import React from 'react'
 // import "../../controllers/routes"
 
 
-
 const Articles = () => {
-
-  
 
     return(
         <div className=" p-5 text-center bg-success text-light">

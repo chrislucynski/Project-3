@@ -1,23 +1,24 @@
 var mongoose = require("mongoose");
 
+
 var Schema = mongoose.Schema;
 
 var ProductSchema = new Schema({
-   product_name: {
-    type: String,
-    required: true
-  },
-   product_description: {
+   name: {
     type: String,
     required: true
   },
    edible: {
     type: Boolean,
     required: true
+ },
+   description: {
+    type: String,
+    required: true
   },
-  price: {
-      type: Number,
-      required: true
+   price: {
+    type: Number,
+    required: true
   }
 
 });

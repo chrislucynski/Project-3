@@ -6,10 +6,10 @@ module.exports = {
       Products
         .find()
         .then(dbModel => {
-            console.log(dbModel)
             res.json(dbModel)})
         .catch(err => res.status(422).json(err));
     },
+
     update: function(req, res) {
       console.log(`finding product with id: ${req.params.id}`)
       Products

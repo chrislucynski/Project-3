@@ -1,7 +1,9 @@
-// const express = require('express')
-// const router = express.Router()
+const express = require('express')
+const router = express.Router()
+const articleController = require('../../controllers/articles')
 
-// router.get("/articles", function(req, res) {
-  
-  
-//   });
+router
+    .get("/", articleController.findStoredArticles)
+    .post("/", articleController.storeArticles);
+
+module.exports = router
