@@ -1,18 +1,16 @@
 import React from 'react'
-// import "../../models/articles"
-// import "../../controllers/routes"
 
 
-const Articles = () => {
+const Articles = props => {
 
     return(
-        <div className=" p-5 text-center bg-success text-light">
-            <a type="button" className="btn btn-primary" href="/scrape">Scrape
-
+        <div className="container shadow rounded m-5 p-4">
+            <a href = {props.link}>
+                <img src = {props.image} alt = 'news articles'/>
             </a>
-            <h2>
-              No articles yet.  More to come in the future!
-            </h2>
+            <h4>
+                <strong>Headline: {props.headline}</strong> 
+            </h4>
         </div>
     )
 

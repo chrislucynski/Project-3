@@ -16,19 +16,16 @@ class ProductContainer extends React.Component {
     }
 
     loadProducts = () => {
-        console.log('loading products')
+        // console.log('loading products')
         productAPI.getProducts()
         .then(res => {
-            console.log(res.data)
+            // console.log(res.data)
             this.setState({ products: res.data})
         })
         .catch(err => console.log(err))
     }
 
     render() {
-        // console.log(products)
-        console.log(this.products)
-        console.log(this.state.products[1])
         return(
             <div>
                 <div className = "container shadow rounded m-5 p-4">

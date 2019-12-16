@@ -8,6 +8,9 @@ const mongoose = require("mongoose");
 const db = require('./config/keys').mongoURI
 
 mongoose
+mongoose
+  // .connect('mongodb://localhost:27017/test')
+  // .connect('mongodb+srv://chrislucynski:dRRgvEEcE6FVhpx@baek-d-bw5gw.mongodb.net/Baekd')
   .connect(db, {useNewUrlParser: true, useUnifiedTopology: true, dbName: 'Baekd' })
   .then(console.log('connected to db'))
   .catch(err => console.log(err))
@@ -15,15 +18,7 @@ mongoose
 // Routes
 const routes = require('./routes')
 
-// ORM
-// import 
 
-// Sever
-// app.get('view engine',)
-
-
-
-// app.use('/api/products', products)
 app.use(bodyParser.json())
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));

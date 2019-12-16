@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import { useAuth0 } from "./react-auth0-spa";
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './Components/Navbar'
@@ -12,6 +13,13 @@ import Contact from "./Components/Contact/Contact";
 import Recipes from "./Components/Recipes/RecipeContainer"
 
 function App() {
+
+  const { loading } = useAuth0();
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
   return (
     <Router>
       <div>

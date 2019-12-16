@@ -1,7 +1,9 @@
 import React from 'react'
+import { useAuth0 } from "../react-auth0-spa";
 
 const Navbar = () => {
 
+    const { isAuthenticated, loginWithRedirect, logout } = useAuth0();
 
     return(
         <div>
@@ -24,14 +26,17 @@ const Navbar = () => {
                             <a className="nav-link dropdown-toggle" href=" " id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 More
                             </a>
-                            <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <div className="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
                                 <a className="dropdown-item" href="/gallery">Gallery</a>
                                 <a className="dropdown-item" href="/recipes">Recipes</a>
                                 <a className="dropdown-item" href="/contact">Contact</a>
                             </div>
                         </li>
                     </ul>
-                    <a type="button" className="btn btn-dark btn-outline-success " href="/login">Sign in as Admin</a>
+                    {!isAuthenticated && (
+                        <button className="btn btn-dark btn-outline-success text-light mr-5" onClick={() => loginWithRedirect({})}>Log in</button>
+                    )}
+                    {isAuthenticated && <button onClick={() => logout()}>Log out</button>}
                     <a className="navbar-brand ml-auto" href="/">BAEK-D</a>
                 </div>
             </nav> 

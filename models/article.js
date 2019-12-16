@@ -7,7 +7,11 @@ var ArticleSchema = new Schema({
     type: String,
     required: true
   },
-  URL: {
+  link: {
+    type: String,
+    required: true
+  },
+  image: {
     type: String,
     required: true
   }
@@ -18,3 +22,12 @@ var Article = mongoose.model("Article", ArticleSchema, "Articles");
 
 // Export the Article model
 module.exports = Article;
+
+
+// Dummy Data:
+// {
+//   "headline": "headline",
+//   "hook": "hook",
+//   "link": "link",
+//   "image": "image"
+//   }

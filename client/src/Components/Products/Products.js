@@ -6,14 +6,17 @@ const Products = props => {
         <div className="container shadow rounded m-5 p-4">
             
             <h4>
-                <strong>Name:</strong> {props.name}
+                <strong>Name:</strong> 
             </h4>
+            <p className="lead">{props.name}</p>
             <h4>
-                Description: {props.description}
+                <strong>Description:</strong> 
             </h4>
+            <p className="lead">{props.description}</p>
             <h4>
-                Price: ${props.price}.00
+                <strong>Price:</strong> 
             </h4>
+            <p>${props.price}</p>
         </div>
     )
 }

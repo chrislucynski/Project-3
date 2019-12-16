@@ -22,6 +22,16 @@ var RecipeSchema = new Schema({
 
 });
 
-var Recipe = mongoose.model("Recipe", RecipeSchema);
+var Recipe = mongoose.model("Recipe", RecipeSchema, "Recipes");
 
 module.exports = Recipe;
+
+
+// Dummy Data:
+// <--------------->
+// {
+//   "label":"label",
+//   "image":"image",
+//   "source":"source",
+//   "link":"link"
+//   }
