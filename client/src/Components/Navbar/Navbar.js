@@ -19,20 +19,16 @@ const Navbar = () => {
                             <a className="nav-link btn-lg" href="/">Home <span className="sr-only">(current)</span></a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link btn-lg" href="/about">About</a>
-                        </li>
-                        <li className="nav-item">
                             <a className="nav-link btn-lg" href="/menu">Menu</a>
                         </li>
-                        <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle btn-lg" href=" " id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                More
-                            </a>
-                            <div className="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
-                                <a className="dropdown-item" href="/gallery">Gallery</a>
-                                <a className="dropdown-item" href="/recipes">Recipes</a>
-                                <a className="dropdown-item" href="/contact">Contact</a>
-                            </div>
+                        <li className="nav-item">
+                                <a className="nav-link btn-lg" href="/gallery">Gallery</a>
+                        </li>
+                        <li className="nav-item">
+                                <a className="nav-link btn-lg" href="/recipes">Recipes</a>
+                        </li>
+                        <li className="nav-item">
+                                <a className="nav-link btn-lg" href="/contact">Contact</a>
                         </li>
                     </ul>
                     <a id="brand-name" className="navbar-brand ml-auto mr-5" style = {styling} href="/">BAEK-D</a>

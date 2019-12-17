@@ -1,19 +1,23 @@
 import React from 'react'
+import './aboutowners.css'
+import styling from '../Navbar/Navbar.css'
 
 const AboutOwner = () => {
 
     return(
-        <div id='wrapper-about-owner'>
-            <div className="container shadow p-5 mt-5 lead">
-                <h1 className="text-center pb-4">
-                    About the Owners
+        <div  id="ab-container" className="">
+            {/* id='wrapper-about-owner' */}
+            <div className=" p-5 text-light lead">
+                <h1 id="brand-name" className="text-center pb-3" style = {styling}>
+                BAEK-D
                 </h1>
                 <hr></hr>
-                <h3 className="pb-4 pt-3 text-center">
-                    Baek-d is a family affair.
+                <h3 className="text-center pb-4">
+                A family affair.
                 </h3>
+               
                 <div className="row">
-                    <div className="col">
+                    <div className="col pr-5">
                         <h2 className="text-center">
                             Owners
                         </h2>
@@ -33,7 +37,7 @@ const AboutOwner = () => {
                             state-wide suicide hotline, warm-line, SafeUT app, and the Mobile Crisis Outreach Team (MCOT).
                         </p>
                     </div>
-                    <div className="col">
+                    <div className="col pl-5">
                         <h2 className="text-center">
                             The Crew
                         </h2>

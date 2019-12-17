@@ -59,24 +59,30 @@ class ArticleContainer extends Component {
 
     render(){
         return(
-            <div className="container text-center mt-5 lead">
+            <div className="container text-center mt-5 lead ">
                 <h2>
                     Wanting to stay up-to-date with baking news? 
                 </h2>
                 <h6>
                 Check out the articles below from bakingbusiness.com!
                 </h6>
-                    {this.state.articles.map((article, index) => (
-            
-                <Articles
-                 image = {article.image}
-                 id = {index}
-                 key = {index}
-                 headline = {article.headline}
-                 link = {article.link}
-                />
-                 ))
-                    }
+                <div className=" overflow-auto">
+                    <div className="d-inline-flex">
+                        {this.state.articles.map((article, index) => (
+                    
+                            <Articles
+                                image = {article.image}
+                                id = {index}
+                                key = {index}
+                                headline = {article.headline}
+                                link = {article.link}
+                            />
+                        ))
+                        }
+                    </div>
+                
+
+                </div>
 
             </div>
         )

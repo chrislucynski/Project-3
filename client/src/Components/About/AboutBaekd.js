@@ -1,11 +1,11 @@
 import React from 'react'
 import images from "../../images.json"
 
-
 const AboutBaekd = () => {
 
+
     return(
-        <div className=" p-5 bg-dark lead text-light">
+        <div  className=" p-5 bg-dark lead text-light">
             <h1 className="text-center pb-5">
                 Humble Beginnings
             </h1>
