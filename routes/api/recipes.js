@@ -3,8 +3,11 @@ const router = express.Router()
 const recipeController = require('../../controllers/recipes')
 
 router
-    .delete("/delete", recipeController.deleteStoredRecipes)
-    .post("/store", recipeController.storeRecipes)
-    .get("/", recipeController.findStoredRecipes);
+    .get("/", async function(req, res){
+        const response = await recipeController.gatherRecipes();
+        console.log(response)
+        res.json(response);
+        
+    });
 
 module.exports = router

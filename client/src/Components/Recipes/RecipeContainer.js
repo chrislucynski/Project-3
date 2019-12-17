@@ -13,9 +13,10 @@ class RecipeContainer extends Component {
     }
 
     cookieSearch = () => {
-        recipesAPI.getStoredRecipes()
+        recipesAPI.displayRecipes()
         .then(res => {
-            this.setState({ result: res.data.hits})
+            console.log(res)
+            this.setState({ result: res.data})
            
         })
         .catch(err => console.log(err))
@@ -24,18 +25,18 @@ class RecipeContainer extends Component {
     render(){
         return(
             <div className="">
-                <Recipes />
-            {/* {this.state.result.map((recipe, index) => (
+            {this.state.result.length && this.state.result.map((item, index) => (
                 <Recipes
-                 src = {this.image}
-                 id = {recipe.label}
-                 alt = {recipe.label}
-                 name = {recipe.label}
+                 src = {item.recipe.image}
+                 id = {item.recipe.label}
+                 alt = {item.recipe.label}
+                 name = {item.recipe.label}
                  key = {index}
-                 href = {recipe.link}
+                 href = {item.recipe.url}
+                 source = {item.recipe.source}
                 />
                  ))
-            } */}
+            }
 
             </div>
         )
