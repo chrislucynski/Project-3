@@ -8,10 +8,6 @@ const path = require('path')
 const mongoose = require("mongoose");
 const db = require('./config/keys').mongoURI
 
-console.log('==============================')
-console.log(process.env.MONGODB_URI)
-console.log(process.env)
-console.log('==============================')
 mongoose
   .connect(process.env.MONGODB_URI || db, {useNewUrlParser: true, useUnifiedTopology: true })
   .then(console.log('connected to db'))
