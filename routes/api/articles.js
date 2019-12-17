@@ -3,9 +3,11 @@ const router = express.Router()
 const articleController = require('../../controllers/articles')
 
 router
-    .delete("/delete", articleController.deleteStoredArticles)
-    .post("/store", articleController.storeArticles)
-    .get("/", articleController.findStoredArticles);
+    .get("/", async function(req, res){
+        const response = await articleController.scrapeArticles();
+        console.log(response)
+        res.json(response);
+    });
 
 module.exports = router
 

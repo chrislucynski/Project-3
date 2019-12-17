@@ -8,8 +8,8 @@ const Articles = props => {
             <a href = {props.link}>
                 <img src = {props.image} alt = 'news articles'/>
             </a>
-            <h4>
-                <strong>Headline: {props.headline}</strong> 
+            <h4 className="p-3">
+                <p>{props.headline}</p>
             </h4>
         </div>
     )

@@ -1,8 +1,8 @@
 import axios from "axios";
 
 export default {
-  getArticles: function(req, res) {
-    console.log('returning articles from database')
+  getArticles: function() {
+    console.log('accessing articles from api route')
     return axios
       .get('/api/articles')
     
