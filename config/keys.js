@@ -1,5 +1,6 @@
 module.exports = {
-    mongoURI: 'mongodb+srv://chrislucynski:dRRgvEEcE6FVhpx@baek-d-bw5gw.mongodb.net/'
+    mongoURI: 'mongodb://localhost:27017/Baek-d'
+    // mongoURI: 'mongodb+srv://chrislucynski:dRRgvEEcE6FVhpx@baek-d-bw5gw.mongodb.net/'
 }
 
 // Mongoose info:

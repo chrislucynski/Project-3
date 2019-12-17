@@ -8,11 +8,12 @@ const path = require('path')
 const mongoose = require("mongoose");
 const db = require('./config/keys').mongoURI
 
+console.log('==============================')
+console.log(process.env.MONGODB_URI)
+console.log(process.env)
+console.log('==============================')
 mongoose
-mongoose
-  // .connect('mongodb://localhost:27017/test')
-  // .connect('mongodb+srv://chrislucynski:dRRgvEEcE6FVhpx@baek-d-bw5gw.mongodb.net/Baekd')
-  .connect(process.env.MONGODB_URI || db, {useNewUrlParser: true, useUnifiedTopology: true, dbName: 'Baekd' })
+  .connect(process.env.MONGODB_URI || db, {useNewUrlParser: true, useUnifiedTopology: true })
   .then(console.log('connected to db'))
   .catch(err => console.log(err))
 
