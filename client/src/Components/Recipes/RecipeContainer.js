@@ -26,26 +26,26 @@ class RecipeContainer extends Component {
         return(
             <div className="">
                 <img src="" alt="recipe box"/>
-
-                <h1 className="p-5">
+                <h2 className="p-5 text-center">
                     Here are some recipes you can try - just sub in some of our delicious butter!
-                </h1>
-            {this.state.result.length && this.state.result.map((item, index) => (
-                <Recipes
-                 src = {item.recipe.image}
-                 id = {item.recipe.label}
-                 alt = {item.recipe.label}
-                 name = {item.recipe.label}
-                 key = {index}
-                 href = {item.recipe.url}
-                 source = {item.recipe.source}
-                />
-                 ))
-            }
-            <div className="m-5 container rounded">
-            <Articles />
-            </div>
-
+                </h2>
+                <div className="container">
+                    {this.state.result.length && this.state.result.map((item, index) => (
+                        <Recipes
+                        src = {item.recipe.image}
+                        id = {item.recipe.label}
+                        alt = {item.recipe.label}
+                        name = {item.recipe.label}
+                        key = {index}
+                        href = {item.recipe.url}
+                        source = {item.recipe.source}
+                        />
+                        ))
+                    }
+                </div>
+                <div className="m-5 container rounded">
+                    <Articles />
+                </div>
             </div>
         )
     }
