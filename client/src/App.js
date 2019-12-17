@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import { useAuth0 } from "./react-auth0-spa";
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './Components/Navbar'
+import Navbar from './Components/Navbar/Navbar'
 import Login from './Components/Login'
 import Home from "./Components/Home/Home";
 import Gallery from './Components/Gallery'
