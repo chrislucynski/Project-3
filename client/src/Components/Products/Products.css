@@ -1,5 +1,7 @@
 
-
+#product {
+    width: 300px;
+}
 
 #product-name {
     font-family: 'Montserrat', sans-serif;
