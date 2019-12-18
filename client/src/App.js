@@ -8,7 +8,7 @@ import Footer from './Components/Footer/Footer'
 import Home from "./Components/Home/Home";
 import Gallery from './Components/Gallery/Gallery'
 import ProductContainer from './Components/Products/ProductContainer'
-import Contact from "./Components/Contact/Contact";
+import ContactContainer from "./Components/Contact/ContactContainer";
 import RecipesContainer from "./Components/Recipes/RecipeContainer"
 // import StickyFooter from 'react-sticky-footer'
 
@@ -29,11 +29,9 @@ function App() {
         <Route exact path="/menu" component={ProductContainer} />
         <Route exact path="/gallery" component={Gallery} />
         <Route exact path="/recipes" component={RecipesContainer} />
-        <Route path="/contact" component={Contact} />
+        <Route path="/contact" component={ContactContainer} />
       </div>
         <Footer />
-      
-
     </Router>
   );
 }

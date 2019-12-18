@@ -5,10 +5,10 @@ import styling from '../Navbar/Navbar.css'
 const AboutOwner = () => {
 
     return(
-        <div  id="ab-container" className="">
+        <div  id="ao-container" className="">
             {/* id='wrapper-about-owner' */}
             <div className=" p-5 text-light lead">
-                <h1 id="brand-name" className="text-center pb-3" style = {styling}>
+                <h1 id="logo" className="text-center pb-3 text-white" style = {styling}>
                 BAEK-D
                 </h1>
                 <hr></hr>
@@ -16,7 +16,7 @@ const AboutOwner = () => {
                 A family affair.
                 </h3>
                
-                <div className="row">
+                <div id="ao-content" className="row">
                     <div className="col pr-5">
                         <h2 className="text-center">
                             Owners

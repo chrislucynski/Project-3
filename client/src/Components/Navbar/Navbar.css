@@ -2,5 +2,11 @@
 #brand-name {
 
     font-family: 'Comfortaa', cursive;
-    font-size: 2em;
+    /* font-size: 4em; */
+    color: #63B995;
+
+}
+
+#login-btn {
+    background-color: #63B995;
 }

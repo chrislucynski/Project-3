@@ -7,7 +7,7 @@ const Gallery = () => {
 
         <div className="m-5 p-5 shadow rounded">
             <h1 className="text-center">
-                Sneak peak into the Baek-d products.
+                Sneak peak into the Baek-d products:
             </h1>
             <hr></hr>
 

@@ -1,11 +1,12 @@
 import React from 'react'
 import images from "../../images.json"
+import './aboutbaekd.css'
 
 const AboutBaekd = () => {
 
 
     return(
-        <div  className=" p-5 bg-dark lead text-light">
+        <div id="about-baekd" className="p-5 bg-dark lead text-light">
             <h1 className="text-center pb-5">
                 Humble Beginnings
             </h1>
@@ -13,7 +14,7 @@ const AboutBaekd = () => {
                 <div className="col-8">
                     <img className="rounded shadow w-100" src={images[1].path} alt="Grama"/>
                 </div>
-                <div className="col">
+                <div id="ab-summary" className="col">
                     <p>
                         The journey started in Walla Walla, Washington, where 
                         Grama Linda shared her love for baking with her granddaughter, Rachel. 

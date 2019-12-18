@@ -9,7 +9,7 @@ const Navbar = () => {
 
     return(
         <div>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-5">
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -31,9 +31,10 @@ const Navbar = () => {
                                 <a className="nav-link btn-lg" href="/contact">Contact</a>
                         </li>
                     </ul>
-                    <a id="brand-name" className="navbar-brand ml-auto mr-5" style = {styling} href="/">BAEK-D</a>
+                    <h1 id="brand-name" className="navbar-brand ml-auto mr-5" style = {styling} href="/">BAEK-D</h1>
                     {!isAuthenticated && (
-                        <button className="btn btn-dark btn-outline-success btn-lg text-light  ml-auto mr-5" onClick={() => loginWithRedirect({})}>Log in</button>
+                     <button id="login-btn" class="waves-effect waves-light btn-large ml-auto mr-3" onClick={() => loginWithRedirect({})}>Log In</button>
+                    //  <button className="btn btn-dark btn-outline-success btn-lg text-light  ml-auto mr-5" onClick={() => loginWithRedirect({})}>Log in</button>
                     )}
                     {isAuthenticated && <button onClick={() => logout()}>Log out</button>}
                 </div>
