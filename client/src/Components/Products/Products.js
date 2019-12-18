@@ -4,7 +4,7 @@ import React from 'react'
 const Products = props => {
     
     return(
-        <div id="product" className="shadow m-5 p-4">
+        <div id="product" className=" m-5 p-4">
             
             <p id="product-name"><strong>{props.name}</strong></p>
             

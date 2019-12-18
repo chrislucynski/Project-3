@@ -3,14 +3,15 @@
 
 #product-name {
     font-family: 'Montserrat', sans-serif;
-
+    font-size: 2em;
 }
 
 #product-descriptionf {
     font-family: 'Raleway', sans-serif; 
-
+    font-size: 2em;
 }
 
 #price {
     font-family: 'Comfortaa', cursive;
+    font-size: 2em;
 }

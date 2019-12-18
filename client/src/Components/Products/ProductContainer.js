@@ -30,23 +30,23 @@ class ProductContainer extends React.Component {
 
     render() {
         return(
-            <div id="menu-wrapper">
-            <img src={images[4].path} alt={images[4].name} />
+            <div id="menu-wrapper" className = "container text-white p-5">
+                <img src={images[4].path} alt={images[4].name} />
 
-                <div className = "container text-white p-5">
-                    <h1 id="menu" className="text-center">
-                        Menu  
-                    </h1>
-                    
-                </div>
-                {this.state.products.map(product => (
-                    <Products 
-                    name = {product.name}
-                    description = {product.description}
-                    price = {product.price}
-                    />
-                    ))
-                }
+                <h1 id="menu" className="text-center p-5">
+                    Menu  
+                </h1>
+                <div className="d-inline-flex flex-row">
+                    {this.state.products.map(product => (
+                        <Products 
+                        name = {product.name}
+                        description = {product.description}
+                        price = {product.price}
+                        />
+                        ))
+                    }
+                
+                </div>    
             </div>
         )
     }
