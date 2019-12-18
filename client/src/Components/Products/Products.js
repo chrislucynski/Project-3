@@ -1,16 +1,16 @@
 import React from 'react'
 
+
 const Products = props => {
     
     return(
-        <div className="container shadow rounded m-5 p-4">
+        <div id="product" className="shadow m-5 p-4">
             
+            <p id="product-name"><strong>{props.name}</strong></p>
             
-            <p className="lead">{props.name}</p>
+            <p id="product-description" className="text-right">{props.description}</p>
             
-            <p className="lead float-right">{props.description}</p>
-            
-            <p className="float-right">${props.price}</p>
+            <p id="price" className="">${props.price}</p>
         </div>
     )
 }

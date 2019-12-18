@@ -1,5 +1,5 @@
 import React from 'react'
-import productImages from '../images.json'
+import productImages from '../../images.json'
 
 const Gallery = () => {
 

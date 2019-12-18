@@ -1,6 +1,9 @@
 import React, { Component} from 'react'
 import productAPI from '../../utils/products'
 import Products from '../Products/Products'
+import images from '../../images.json'
+import './ProductContainer.css'
+
 
 class ProductContainer extends React.Component {
     constructor(props){
@@ -27,14 +30,14 @@ class ProductContainer extends React.Component {
 
     render() {
         return(
-            <div>
-                <div className = "container shadow rounded m-5 p-4">
-                    <h1>
-                        You've come to the right place...  
+            <div id="menu-wrapper">
+            <img src={images[4].path} alt={images[4].name} />
+
+                <div className = "container text-white p-5">
+                    <h1 id="menu" className="text-center">
+                        Menu  
                     </h1>
-                    <h3>
-                        Below, you will find all of our edible products
-                    </h3>
+                    
                 </div>
                 {this.state.products.map(product => (
                     <Products 

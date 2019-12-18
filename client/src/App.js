@@ -6,7 +6,7 @@ import './App.css';
 import Navbar from './Components/Navbar/Navbar'
 import Footer from './Components/Footer/Footer'
 import Home from "./Components/Home/Home";
-import Gallery from './Components/Gallery'
+import Gallery from './Components/Gallery/Gallery'
 import ProductContainer from './Components/Products/ProductContainer'
 import Contact from "./Components/Contact/Contact";
 import RecipesContainer from "./Components/Recipes/RecipeContainer"
