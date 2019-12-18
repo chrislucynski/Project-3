@@ -1,0 +1,11 @@
+
+/* Traversy Media */
+html, body {
+    height:100%;
+}
+
+body {
+    /* font-family:  */
+    display: flex;
+    flex-direction: column;
+}

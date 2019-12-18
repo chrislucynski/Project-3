@@ -4,12 +4,14 @@ import { useAuth0 } from "./react-auth0-spa";
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './Components/Navbar/Navbar'
-// import Login from './Components/Login'
+import Footer from './Components/Footer/Footer'
 import Home from "./Components/Home/Home";
 import Gallery from './Components/Gallery'
 import ProductContainer from './Components/Products/ProductContainer'
 import Contact from "./Components/Contact/Contact";
 import RecipesContainer from "./Components/Recipes/RecipeContainer"
+// import StickyFooter from 'react-sticky-footer'
+
 
 function App() {
 
@@ -21,7 +23,7 @@ function App() {
 
   return (
     <Router>
-      <div>
+      <div className = "content">
         <Navbar />
         <Route exact path="/" component={Home} />
         <Route exact path="/menu" component={ProductContainer} />
@@ -29,6 +31,9 @@ function App() {
         <Route exact path="/recipes" component={RecipesContainer} />
         <Route path="/contact" component={Contact} />
       </div>
+        <Footer />
+      
+
     </Router>
   );
 }
