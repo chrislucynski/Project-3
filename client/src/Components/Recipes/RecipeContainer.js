@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import "./Recipes.css"
+import "./RecipeContainer.css"
 import recipesAPI from '../../utils/recipes'
 import Recipes from './Recipe'
 import Articles from '../Articles/ArticlesContainer'
@@ -24,8 +24,8 @@ class RecipeContainer extends Component {
 
     render(){
         return(
-            <div className="">
-                <img src="" alt="recipe box"/>
+            <div id="recipe-wrapper">
+                <img src="../public/otherImages/recipe.jpg" alt="recipe box"/>
                 <h2 className="p-5 text-center">
                     Here are some recipes you can try - just sub in some of our delicious butter!
                 </h2>
@@ -43,7 +43,7 @@ class RecipeContainer extends Component {
                         ))
                     }
                 </div>
-                <div className="m-5 container rounded">
+                <div className="mt-4 container rounded">
                     <Articles />
                 </div>
             </div>
