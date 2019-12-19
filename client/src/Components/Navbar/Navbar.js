@@ -36,7 +36,7 @@ const Navbar = () => {
                     //  <button id="login-btn" class="waves-effect waves-light btn-large ml-auto mr-3" onClick={() => loginWithRedirect({})}>Log In</button>
                      <button className="btn btn-dark btn-outline-success btn-lg text-light  ml-auto mr-5" onClick={() => loginWithRedirect({})}>Log in</button>
                     )}
-                    {isAuthenticated && <button onClick={() => logout()}>Log out</button>}
+                    {isAuthenticated && <button className="btn btn-dark btn-outline-success btn-lg text-light  ml-auto mr-5" onClick={() => logout()}>Log out</button>}
                 </div>
             </nav> 
         </div>
