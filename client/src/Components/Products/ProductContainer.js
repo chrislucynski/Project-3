@@ -36,7 +36,7 @@ class ProductContainer extends React.Component {
                     <h1 id="menu" className="text-center p-5">
                         Menu  
                     </h1>
-                    <div className="d-inline-flex">
+                    <div className="d-inline-flex flex-wrap">
                         {this.state.products.map(product => (
                             <Products 
                             name = {product.name}

@@ -1,15 +1,15 @@
 import React from 'react'
 import productImages from '../../images.json'
+import './gallery.css'
 
 const Gallery = () => {
 
     return(
 
-        <div className="m-5 p-5 shadow rounded">
-            <h1 className="text-center">
+        <div id="gallery-container" className="text-white p-5">
+            <h1 className="text-center pb-5">
                 Sneak peak into the Baek-d products:
             </h1>
-            <hr></hr>
 
             <div id="carouselExampleControls" class="carousel slide  w-75 m-auto" data-ride="carousel">
                 <div class="carousel-inner rounded ">

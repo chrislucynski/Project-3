@@ -10,15 +10,15 @@ const ContactInfo = () => {
                     Local Contact Info:
                 </h1>
                 <hr></hr>
-                <div className="row px-3">
-                    <h3 className=" text-left ">
+                <div className="row px-3 py-3">
+                    <h3 className=" text-left">
                         Phone Number: 
                     </h3>
                     <h5 className="ml-auto align-self-center">
                         (555) 867-5309
                     </h5>
                 </div>
-                <div className="row px-3">
+                <div className="row px-3 py-3">
                     <h3>
                         Address: 
                     </h3>
@@ -27,7 +27,7 @@ const ContactInfo = () => {
                     </h5>
                        
                 </div>
-                <div className="row px-3">
+                <div className="row px-3 py-3">
                     <h3>
                         Email Address: 
                     </h3>
