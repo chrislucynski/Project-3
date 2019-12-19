@@ -4,7 +4,7 @@ import React from 'react'
 const Articles = props => {
 
     return(
-        <div className="container shadow rounded m-5 p-4">
+        <div className="container shadow rounded m-3 p-4">
             <a href = {props.link}>
                 <img src = {props.image} alt = 'news articles'/>
             </a>

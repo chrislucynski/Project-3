@@ -1,10 +1,11 @@
 import React  from "react";
+import './Recipe.css'
 
 function Recipes (props, index) {
        
     return(
 
-        <div className="card d-inline-flex justify-content-center m-5 text-dark " style = {{width: 250}}> 
+        <div className="card d-inline-flex justify-content-center m-5 text-light bg-dark" style = {{width: 250}}> 
             <img
                 src = {props.src}
                 id = {props.id}

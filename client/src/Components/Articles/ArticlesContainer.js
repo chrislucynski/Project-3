@@ -9,7 +9,6 @@ class ArticleContainer extends Component {
         articles: []
     }
 
-
     componentDidMount() {
         this.loadArticles()
     }
@@ -59,7 +58,7 @@ class ArticleContainer extends Component {
 
     render(){
         return(
-            <div className="container text-center mt-5 lead ">
+            <div id="article-wrapper" className=" text-center text-white pt-5">
                 <h2>
                     Wanting to stay up-to-date with baking news? 
                 </h2>
