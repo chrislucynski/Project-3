@@ -1,6 +1,6 @@
 import React from 'react'
 import './map.css'
-const mapKey = require('../../keys').googleMapsURI
+const mapURI = require('../../keys').googleMapsURI
 
 const MapComp = () => {
     return(
@@ -14,7 +14,7 @@ const MapComp = () => {
                 Sheboygan Falls, WI
                 </h5>
                 <iframe className="rounded" title="Sheb" width="600" height="450" frameBorder="0" style={{border:0}}
-                    src={mapKey}
+                    src={mapURI}
                     allowFullScreen>
                 </iframe>
             </div>

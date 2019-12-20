@@ -1,8 +1,12 @@
 module.exports = {
-    mongoURI: 'mongodb+srv://chrislucynski:dRRgvEEcE6FVhpx@baek-d-bw5gw.mongodb.net/',
-    edamamAPI: "https://api.edamam.com/search?q=cookies&app_id=31e044be&app_key=d6ebdc1885479c059c6cf874379dd687&from=0&to=3&calories=591-722&health=alcohol-free"
+    mongoURI: process.env.mongoURI,
+    edamamAPI: process.env.edamam_URI
 
 }
+
+// CONNECTION_STRING mongodb+srv://baek-d-bw5gw.mongodb.net/test
+
+// mongo "mongodb+srv://baek-d-bw5gw.mongodb.net/test" --username chrislucynski
 
 
 
