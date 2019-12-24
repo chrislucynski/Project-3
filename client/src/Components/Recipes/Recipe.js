@@ -5,7 +5,7 @@ function Recipes (props, index) {
        
     return(
 
-        <div className="card d-inline-flex justify-content-center m-5 text-light bg-dark" style = {{width: 250}}> 
+        <div className="card d-inline-flex justify-content-center m-5 text-light recipe-card" style = {{width: 250}}> 
             <img
                 src = {props.src}
                 id = {props.id}
@@ -17,7 +17,7 @@ function Recipes (props, index) {
             <div className="card-body">
                 <h5 className="card-title">{props.name}</h5>
                 <p className="card-text">From: {props.source}</p>
-                <a href = {props.href} className="btn btn-dark btn-outline-success text-light">View Recipe</a>
+                <a href = {props.href} className="btn btn-dark view-recipe text-light">View Recipe</a>
             </div>
         </div>
 

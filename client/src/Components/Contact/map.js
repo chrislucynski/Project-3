@@ -24,5 +24,4 @@ const MapComp = () => {
 
 export default MapComp
 
-
  

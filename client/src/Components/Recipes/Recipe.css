@@ -1,4 +1,14 @@
 #recipe-wrapper{
    color: #63B995;
+    font-family: 'Comfortaa', cursive;
 
+
+}
+
+.recipe-card {
+   background-color: #63B995;
+}
+
+.view-recipe{
+   border-color: #63B995;
 }

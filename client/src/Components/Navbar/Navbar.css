@@ -10,3 +10,8 @@
 #login-btn {
     background-color: #63B995;
 }
+
+#login-btn:hover {
+    background-color: black;
+    border-color: #63B995;
+}

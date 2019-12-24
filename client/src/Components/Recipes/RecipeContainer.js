@@ -30,7 +30,7 @@ class RecipeContainer extends Component {
                     <h2 className="p-5 text-center">
                         Here are some recipes you can try - just sub in some of our delicious butter!
                     </h2>
-                    <div >
+                    <div className="justify-content-around">
                         {this.state.result.length && this.state.result.map((item, index) => (
                             <Recipes
                             src = {item.recipe.image}

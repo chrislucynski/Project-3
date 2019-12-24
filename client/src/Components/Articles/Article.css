@@ -1,4 +1,12 @@
 #article-wrapper{
     background-color: #63B995;
+    font-family: 'Comfortaa', cursive;
 
+
+}
+
+.article-container{
+    color: #63B995;
+    font-size: 1.5em;
+    width: 350px;
 }

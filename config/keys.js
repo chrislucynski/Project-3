@@ -1,6 +1,6 @@
 module.exports = {
     mongoURI: process.env.mongoURI,
-    edamamAPI: process.env.edamam_URI
+    edamamAPI: process.env.Edamam_URI
 
 }
 
