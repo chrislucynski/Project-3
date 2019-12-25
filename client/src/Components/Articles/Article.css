@@ -1,8 +1,6 @@
 #article-wrapper{
     background-color: #63B995;
     font-family: 'Comfortaa', cursive;
-
-
 }
 
 .article-container{
@@ -10,3 +8,8 @@
     font-size: 1.5em;
     width: 350px;
 }
+
+.article-images:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); 
+  }

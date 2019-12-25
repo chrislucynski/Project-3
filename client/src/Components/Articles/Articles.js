@@ -4,9 +4,9 @@ import React from 'react'
 const Articles = props => {
 
     return(
-        <div className="article-container bg-dark m-3 p-4">
+        <div className="article-container rounded bg-dark m-4 p-4">
             <a href = {props.link}>
-                <img src = {props.image} alt = 'news articles'/>
+                <img className="rounded article-images" src = {props.image} alt = 'news articles'/>
             </a>
             {/* <h4 > */}
                 <p className="p-3">{props.headline}</p>

@@ -12,7 +12,7 @@ const Gallery = () => {
             </h1>
 
             <div id="carouselExampleControls" class="carousel slide  w-75 m-auto" data-ride="carousel">
-                <div class="carousel-inner rounded ">
+                <div class="carousel-inner rounded shadow-lg">
                     <div class="carousel-item active">
                         <img src={productImages[0].path} class="d-block w-100" alt={productImages[0].name} />
                     </div>

@@ -1,8 +1,11 @@
+.links{
+    font-size: 1.2em;
+}
+
 
 #brand-name {
 
     font-family: 'Comfortaa', cursive;
-    /* font-size: 4em; */
     color: #63B995;
 
 }
@@ -12,6 +15,15 @@
 }
 
 #login-btn:hover {
+    background-color: black;
+    border-color: #63B995;
+}
+
+#logout-btn {
+    background-color: #63B995;
+}
+
+#logout-btn:hover {
     background-color: black;
     border-color: #63B995;
 }

@@ -24,7 +24,7 @@ class RecipeContainer extends Component {
 
     render(){
         return(
-            <div id="recipe-wrapper">
+            <div>
                 <img src= {image} alt="recipe box"/>
                 <div id="recipe-wrapper" className=" bg-dark">
                     <h2 className="p-5 text-center">

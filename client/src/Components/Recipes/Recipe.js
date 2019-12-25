@@ -11,7 +11,7 @@ function Recipes (props, index) {
                 id = {props.id}
                 alt = {props.alt}
                 name = {props.name}
-                className = "card-img-top"
+                className = "card-img-top recipe-image rounded shadow"
                 style = {{width:150, height: 150, margin: 'auto', paddingTop: 15}}
                 /> 
             <div className="card-body">
