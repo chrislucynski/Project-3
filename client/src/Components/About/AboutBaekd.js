@@ -7,12 +7,18 @@ const AboutBaekd = () => {
 
     return(
         <div id="about-baekd" className="p-5 bg-dark lead text-light">
-            <h1 className="text-center pb-5">
-                Humble Beginnings
-            </h1>
+            <div className="text-center">
+                <h1 className="pb-5">
+                    Humble Beginnings
+                </h1>
+
+            </div>
+
             <div className="row">
-                <div className="col-8">
-                    <img className="rounded shadow w-100" src={images[1].path} alt="Grama"/>
+                <div className="col-8 text-center">
+                    <img className="rounded shadow w-100 mb-5" src={images[1].path} alt="Grama"/>
+                <i class="fas fa-birthday-cake fa-5x pt-5"></i>
+
                 </div>
                 <div id="ab-summary" className="col">
                     <p>

@@ -1,13 +1,12 @@
 #logo{
     font-family: 'Comfortaa', cursive;
-
 }
 
 #ao-container {
     background-color: #63B995;
+    font-family: 'Quicksand', sans-serif;
 }
 
 #ao-content{
-    font-family: 'Raleway', sans-serif; 
-
+    font-family: 'Quicksand', sans-serif;
 }

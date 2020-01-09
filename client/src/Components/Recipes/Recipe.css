@@ -19,3 +19,16 @@
 .view-recipe{
    border-color: #63B995;
 }
+
+#recipe-image-wrapper {
+   height: 350px;
+}
+
+#recipe-image{
+   position: relative;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   
+   
+}

@@ -32,10 +32,11 @@ class ProductContainer extends React.Component {
         return(
             <div>
                 <img src={images[4].path} alt={images[4].name} />
-                <div id="menu-wrapper" className = "text-white p-5">
-                    <h1 id="menu" className="text-center p-5">
+                <div id="menu-wrapper" className = "text-white text-center p-5">
+                    <h1 id="menu" className="p-5">
                         Menu  
                     </h1>
+                    <i class="fas fa-book-open pb-5 fa-5x"></i>
                     <div className="d-inline-flex flex-wrap">
                         {this.state.products.map(product => (
                             <Products 

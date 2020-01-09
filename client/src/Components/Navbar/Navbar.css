@@ -1,10 +1,11 @@
 .links{
     font-size: 1.2em;
+    font-family: 'Quicksand', sans-serif;
+
 }
 
 
 #brand-name {
-
     font-family: 'Comfortaa', cursive;
     color: #63B995;
 
@@ -12,6 +13,8 @@
 
 #login-btn {
     background-color: #63B995;
+    font-family: 'Quicksand', sans-serif;
+
 }
 
 #login-btn:hover {
@@ -21,9 +24,36 @@
 
 #logout-btn {
     background-color: #63B995;
+    font-family: 'Quicksand', sans-serif;
+
 }
 
 #logout-btn:hover {
     background-color: black;
     border-color: #63B995;
+}
+
+#home-link{
+    color: #63B995;
+
+}
+
+#menu-link{
+    color: #63B995;
+
+}
+
+#gallery-link{
+    color: #63B995;
+
+}
+
+#recipes-link{
+    color: #63B995;
+
+}
+
+#contact-link{
+    color: #63B995;
+
 }

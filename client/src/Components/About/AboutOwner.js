@@ -8,39 +8,46 @@ const AboutOwner = () => {
         <div  id="ao-container" className="">
             {/* id='wrapper-about-owner' */}
             <div className=" p-5 text-light lead">
-                <h1 id="logo" className="text-center pb-3 text-white" style = {styling}>
-                BAEK-D
-                </h1>
-                <hr></hr>
-                <h3 className="text-center pb-4">
-                A family affair.
-                </h3>
-               
+                <div className="text-center">
+                    <h1 id="logo" className="pb-3 " style = {styling}>
+                    BAEK-D
+                    </h1>
+                    <i class="fas fa-cookie fa-5x pb-3"></i>
+                    <hr></hr>
+                    <h3 className="pb-4">
+                    A family affair
+                    </h3>
+                </div>
                 <div id="ao-content" className="row">
                     <div className="col pr-5">
-                        <h2 className="text-center">
-                            Owners
-                        </h2>
+                        <div className="text-center">
+                            <i class="fas fa-user-secret fa-5x"></i>
+                        </div>
+                        
                         <hr></hr>
                         <h4>
-                            Chris Lucynski, Co-Owner 
+                            <strong>Chris Lucynski, Co-Owner </strong>
                         </h4>
                         <p>
-                            Chris works at UNI as a Registered Nurse. 
+                            Registered Nurse at the Huntsman Mental Health Institute, formally known as UNI. 
                         </p>
                         <br></br>
                         <h4>
-                            Rachel Lucynski, Co-Owner
+                            <strong>Rachel Lucynski, Co-Owner </strong>
                         </h4>
                         <p>
-                            Rachel works at UNI as the business operations manager for the 
-                            state-wide suicide hotline, warm-line, SafeUT app, and the Mobile Crisis Outreach Team (MCOT).
+                            Business operations manager for the Huntsman Mental Health Institute. Oversees the 
+                            SafeUT app, Mobile Crisis Outreach Team (MCOT), Utah's state-wide suicide warmline and hotline.
                         </p>
                     </div>
                     <div className="col pl-5">
-                        <h2 className="text-center">
+                        {/* <h2 className="">
                             The Crew
-                        </h2>
+                        </h2> */}
+                        <div className="text-center">
+                        <i className="fas fa-users fa-5x"></i>
+
+                        </div>
                         <hr></hr>
                         <h4>
                             The Lucynski's 

@@ -11,8 +11,7 @@ const Footer = () => {
                 <ul id="list">
                     <li id="brand-name" className="ml-auto mr-5 " href="/">
                             BAEK-D
-                        {/* <h1 
-                        </h1>  */}
+                        <i class="far fa-copyright fa-sm pl-5"></i>
                     </li>
                 </ul>
             </footer>

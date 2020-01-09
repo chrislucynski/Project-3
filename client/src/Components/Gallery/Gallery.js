@@ -6,11 +6,14 @@ const Gallery = () => {
 
     return(
 
-        <div id="gallery-container" className="text-white p-5">
-            <h1 className="text-center pb-5">
-                Sneak peak into the Baek-d products:
+        <div id="gallery-container" className="text-white text-center p-5">
+            <h1 className="pb-3">
+                Photo Gallery
             </h1>
-
+            <i class="fas fa-camera fa-5x pb-3"></i>
+            <h3 className="pb-5"> 
+                Take a look at our products below:
+            </h3>
             <div id="carouselExampleControls" class="carousel slide  w-75 m-auto" data-ride="carousel">
                 <div class="carousel-inner rounded shadow-lg">
                     <div class="carousel-item active">

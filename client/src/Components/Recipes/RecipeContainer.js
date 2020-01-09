@@ -25,11 +25,12 @@ class RecipeContainer extends Component {
     render(){
         return(
             <div>
-                <img src= {image} alt="recipe box"/>
-                <div id="recipe-wrapper" className=" bg-dark">
+                    <img id="recipe-image" src= {image} alt="recipe box"/>
+                <div id="recipe-wrapper" className="bg-dark text-center">
                     <h2 className="p-5 text-center">
-                        Here are some recipes you can try - just sub in some of our delicious butter!
+                        Recipes
                     </h2>
+                    <i class="fas fa-cookie fa-5x text-center"></i>
                     <div className="justify-content-around">
                         {this.state.result.length && this.state.result.map((item, index) => (
                             <Recipes

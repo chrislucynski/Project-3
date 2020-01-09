@@ -60,10 +60,11 @@ class ArticleContainer extends Component {
         return(
             <div id="article-wrapper" className=" text-center text-white pt-5">
                 <h2>
-                    Wanting to stay up-to-date with baking news? 
+                    Stay up-to-date with baking news!
                 </h2>
+                <i class="fas fa-newspaper fa-5x py-2"></i>
                 <h6>
-                Check out the articles below from bakingbusiness.com!
+                Articles below from bakingbusiness.com:
                 </h6>
                 <div className=" overflow-auto">
                     <div className="d-inline-flex">
