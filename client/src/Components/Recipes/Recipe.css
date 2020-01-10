@@ -2,7 +2,6 @@
    color: #63B995;
     font-family: 'Comfortaa', cursive;
 
-
 }
 
 .recipe-card {
@@ -14,11 +13,31 @@
    filter: alpha(opacity=50); 
  }
 
+#recipe-title{
+}
+
+#from{
+   font-size: 1.1em;
+}
+
+#view-recipe {
+   background-color: black;
+   color: #63B995;
+   font-family: 'Quicksand', sans-serif;
+   
+}
+
+#view-recipe:hover {
+background-color: #63B995;
+border-color: black;
+color:white;
+
+}
  
 
-.view-recipe{
+/* .view-recipe {
    border-color: #63B995;
-}
+} */
 
 #recipe-image-wrapper {
    height: 350px;

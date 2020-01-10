@@ -13,9 +13,18 @@ const Navbar = () => {
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul className="navbar-nav links">
-                        <li className="nav-item active">
+
+                <h1 id="brand-name" className="navbar-brand ml-auto mr-5" style = {styling} href="/">BAEK-D</h1>
+
+                {!isAuthenticated && (
+                //  <button id="login-btn" class="waves-effect waves-light btn-large ml-auto mr-3" onClick={() => loginWithRedirect({})}>Log In</button>
+                    <button id="login-btn" className="btn btn-dark btn-lg text-light  ml-auto mr-5" onClick={() => loginWithRedirect({})}>Log in</button>
+                )}
+                {isAuthenticated && <button id="logout-btn" className="btn btn-dark btn-lg text-light ml-auto mr-5" onClick={() => logout()}>Log out</button>}
+                
+                <div className="collapse navbar-collapse " id="navbarNavDropdown">
+                    <ul className="navbar-nav links  ml-auto">
+                        <li className="nav-item">
                             <a id="home-link" className="nav-link btn-lg links" href="/">Home <span className="sr-only">(current)</span></a>
                         </li>
                         <li className="nav-item">
@@ -31,12 +40,6 @@ const Navbar = () => {
                             <a id="contact-link" className="nav-link btn-lg links" href="/contact">Contact</a>
                         </li>
                     </ul>
-                    <h1 id="brand-name" className="navbar-brand ml-auto mr-5" style = {styling} href="/">BAEK-D</h1>
-                    {!isAuthenticated && (
-                    //  <button id="login-btn" class="waves-effect waves-light btn-large ml-auto mr-3" onClick={() => loginWithRedirect({})}>Log In</button>
-                     <button id="login-btn" className="btn btn-dark btn-lg text-light  ml-auto mr-5" onClick={() => loginWithRedirect({})}>Log in</button>
-                    )}
-                    {isAuthenticated && <button id="logout-btn" className="btn btn-dark btn-lg text-light ml-auto mr-5" onClick={() => logout()}>Log out</button>}
                 </div>
             </nav> 
         </div>

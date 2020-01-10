@@ -4,16 +4,21 @@
 }
 
 #product-name {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2em;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
 }
 
-#product-descriptionf {
-    font-family: 'Raleway', sans-serif; 
-    font-size: 2em;
+#product-description {
+    /* font-family: 'Raleway', sans-serif;  */
+    font-family: 'Quicksand', sans-serif;
+    color: #63B995;
+    /* font-size: 1em; */
 }
 
 #price {
-    font-family: 'Comfortaa', cursive;
-    font-size: 3em;
+    /* font-family: 'Comfortaa', cursive; */
+    font-family: 'Quicksand', sans-serif;
+    color: #63B995;
+    font-size: 2em;
 }

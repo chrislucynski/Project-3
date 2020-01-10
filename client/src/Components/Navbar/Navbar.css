@@ -1,20 +1,24 @@
 .links{
     font-size: 1.2em;
     font-family: 'Quicksand', sans-serif;
-
 }
 
 
 #brand-name {
     font-family: 'Comfortaa', cursive;
     color: #63B995;
+}
 
+#brand-name:hover {
+    color: white;
+    /* font-family: 'Quicksand', sans-serif; */
+    /* font-family: 'Raleway', sans-serif;  */
+    font-family: 'Montserrat', sans-serif;
 }
 
 #login-btn {
     background-color: #63B995;
     font-family: 'Quicksand', sans-serif;
-
 }
 
 #login-btn:hover {
@@ -25,7 +29,6 @@
 #logout-btn {
     background-color: #63B995;
     font-family: 'Quicksand', sans-serif;
-
 }
 
 #logout-btn:hover {
@@ -33,27 +36,48 @@
     border-color: #63B995;
 }
 
+
 #home-link{
     color: #63B995;
+}
 
+#home-link:hover{
+    font-family: 'Comfortaa', cursive;
+    color: white;
 }
 
 #menu-link{
     color: #63B995;
+}
 
+#menu-link:hover{
+    font-family: 'Comfortaa', cursive;
+    color: white;
 }
 
 #gallery-link{
     color: #63B995;
+}
 
+#gallery-link:hover{
+    font-family: 'Comfortaa', cursive;
+    color: white;
 }
 
 #recipes-link{
     color: #63B995;
+}
 
+#recipes-link:hover{
+    font-family: 'Comfortaa', cursive;
+    color: white;
 }
 
 #contact-link{
     color: #63B995;
+}
 
+#contact-link:hover{
+    font-family: 'Comfortaa', cursive;
+    color: white;
 }

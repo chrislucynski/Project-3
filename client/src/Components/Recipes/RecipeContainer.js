@@ -27,10 +27,13 @@ class RecipeContainer extends Component {
             <div>
                     <img id="recipe-image" src= {image} alt="recipe box"/>
                 <div id="recipe-wrapper" className="bg-dark text-center">
-                    <h2 className="p-5 text-center">
+                    <h2 className="pt-5 pb-1 text-center">
                         Recipes
                     </h2>
-                    <i class="fas fa-cookie fa-5x text-center"></i>
+                    <i class="fas fa-cookie fa-5x text-center pb-2"></i>
+                    <p className="pt-2">
+                        Try the featured recipes from Edamam below
+                    </p>
                     <div className="justify-content-around">
                         {this.state.result.length && this.state.result.map((item, index) => (
                             <Recipes

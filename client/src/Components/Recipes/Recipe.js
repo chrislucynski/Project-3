@@ -15,9 +15,9 @@ function Recipes (props, index) {
                 style = {{width:150, height: 150, margin: 'auto', paddingTop: 15}}
                 /> 
             <div className="card-body">
-                <h5 className="card-title">{props.name}</h5>
-                <p className="card-text">From: {props.source}</p>
-                <a href = {props.href} className="btn btn-dark view-recipe text-light">View Recipe</a>
+                <h5 id="recipe-title" className="card-title">{props.name}</h5>
+                <p className="card-text"><strong id="from">From:</strong> {props.source}</p>
+                <a id="view-recipe" href = {props.href} className="btn">View Recipe</a>
             </div>
         </div>
 

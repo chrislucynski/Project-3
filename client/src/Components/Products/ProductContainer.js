@@ -37,7 +37,18 @@ class ProductContainer extends React.Component {
                         Menu  
                     </h1>
                     <i class="fas fa-book-open pb-5 fa-5x"></i>
-                    <div className="d-inline-flex flex-wrap">
+                    <div className="d-inline-flex justify-inbetween flex-wrap">
+                        {images.map(image => (
+                            <Products 
+                            path = {image.path}
+                            name = {image.name}
+                            description = {image.description}
+                            price = {image.price}
+                            />
+                            ))
+                        }
+                    </div>
+                    {/* <div className="d-inline-flex flex-wrap">
                         {this.state.products.map(product => (
                             <Products 
                             name = {product.name}
@@ -46,7 +57,7 @@ class ProductContainer extends React.Component {
                             />
                             ))
                         }
-                    </div>
+                    </div> */}
                 </div>
             </div>
         )

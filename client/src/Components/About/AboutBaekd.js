@@ -6,7 +6,7 @@ const AboutBaekd = () => {
 
 
     return(
-        <div id="about-baekd" className="p-5 bg-dark lead text-light">
+        <div id="about-baekd" className="p-5 bg-dark lead">
             <div className="text-center">
                 <h1 className="pb-5">
                     Humble Beginnings

@@ -2,41 +2,57 @@
     {
         "id": 1,
         "name": "Cookie with Heath bar",
-        "path": "./productImages/cookie_Heath.jpeg"
+        "path": "./productImages/cookie_Heath.jpeg",
+        "description": "4 oz of small-batch Wisconsin honey",
+        "price": 3.00  
     },
     {
         "id": 2,
         "name": "Cookie with Heath bar, precooked",
-        "path": "./productImages/cookie_precooked.jpeg"
+        "path": "./productImages/cookie_precooked.jpeg",
+        "description": "8 oz of small-batch Wisconsin honey",
+        "price": 5.00  
     },
     {
         "id": 3,
         "name": "Cookie with white chocolate mac nut, precooked",
-        "path": "./productImages/cookie_WCM_precooked.jpeg"
+        "path": "./productImages/cookie_WCM_precooked.jpeg",
+        "description": "Cookie Bar with Heath Bar",
+        "price": 1.00  
     },
     {
         "id": 4,
         "name": "Dipping in Honey",
-        "path": "./productImages/honey_dipped.jpeg"
+        "path": "./productImages/honey_dipped.jpeg",
+        "description": "Cookie bar with white chocolate and macademia nut",
+        "price": 1.00  
     },
     {
         "id": 5,
         "name": "Honey dripping",
-        "path": "./productImages/honey_drip.jpeg"
+        "path": "./productImages/honey_drip.jpeg",
+        "description": "Cookie bar with white chocolate, macademia nut, and coconut",
+        "price": 1.00  
     },
     {
         "id": 6,
         "name": "Honey, 4 oz",
-        "path": "./productImages/honey.jpeg"
+        "path": "./productImages/honey.jpeg",
+        "description": "Divine pumpkin custards topped with delicious cake and candied pecans",
+        "price": 2.50  
     },
     {
         "id": 7,
         "name": "Pumpkin Dessert, precooked",
-        "path": "./productImages/pumpkin_precooked.jpeg"
+        "path": "./productImages/pumpkin_precooked.jpeg",
+        "description": "4 oz of homemade granola with Baek-d honey",
+        "price": 1.50  
     },
     {
         "id": 8,
         "name": "Whipped Cream",
-        "path": "./productImages/whipped_cream.jpg"
+        "path": "./productImages/whipped_cream.jpg",
+        "description": "8 oz of homemade granola with Baek-d honey",
+        "price": 2.50  
     }
 ]
