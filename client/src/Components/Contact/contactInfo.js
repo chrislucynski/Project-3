@@ -4,8 +4,8 @@ import './contactInfo.css'
 
 const ContactInfo = () => {
     return(
-        <div id="contact-info" className="bg-dark">
-            <div className="bg-dark p-4">
+        <div id="contact-info" className="bg-white">
+            <div className="p-4">
                 <h1 className="text-center">
                     Local Contact Info:
                 </h1>

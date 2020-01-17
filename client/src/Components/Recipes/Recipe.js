@@ -5,7 +5,7 @@ function Recipes (props, index) {
        
     return(
 
-        <div className="card d-inline-flex justify-content-center m-5 text-light recipe-card" style = {{width: 250}}> 
+        <div className="card d-inline-flex justify-content-center m-5 text-light recipe-card shadow" style = {{width: 250}}> 
             <img
                 src = {props.src}
                 id = {props.id}

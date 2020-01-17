@@ -10,7 +10,7 @@
 }
 
 #brand-name:hover {
-    color: white;
+    color: black;
     /* font-family: 'Quicksand', sans-serif; */
     /* font-family: 'Raleway', sans-serif;  */
     font-family: 'Montserrat', sans-serif;
@@ -43,7 +43,7 @@
 
 #home-link:hover{
     font-family: 'Comfortaa', cursive;
-    color: white;
+    color: black;
 }
 
 #menu-link{
@@ -52,7 +52,7 @@
 
 #menu-link:hover{
     font-family: 'Comfortaa', cursive;
-    color: white;
+    color: black;
 }
 
 #gallery-link{
@@ -61,7 +61,7 @@
 
 #gallery-link:hover{
     font-family: 'Comfortaa', cursive;
-    color: white;
+    color: black;
 }
 
 #recipes-link{
@@ -70,7 +70,7 @@
 
 #recipes-link:hover{
     font-family: 'Comfortaa', cursive;
-    color: white;
+    color: black;
 }
 
 #contact-link{
@@ -79,5 +79,5 @@
 
 #contact-link:hover{
     font-family: 'Comfortaa', cursive;
-    color: white;
+    color: black;
 }
